@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>Ayuda – NEO Tracker</title>
+<meta name="description" content="Ayuda con la app NEO Tracker para iPhone.">
+<link rel="icon" href="../icon.png">
+<link rel="apple-touch-icon" href="../icon.png">
+<link rel="stylesheet" href="../style.css">
+<link rel="alternate" hreflang="en" href="../support.html">
+<link rel="alternate" hreflang="de" href="../de/support.html">
+<link rel="alternate" hreflang="pl" href="../pl/support.html">
+<link rel="alternate" hreflang="fr" href="../fr/support.html">
+<link rel="alternate" hreflang="es" href="../es/support.html">
+<link rel="alternate" hreflang="it" href="../it/support.html">
+<link rel="alternate" hreflang="x-default" href="../support.html">
+<script>
+document.addEventListener("click", function (e) {
+  var a = e.target.closest && e.target.closest("a[data-lang]");
+  if (a) { try { localStorage.setItem("lang", a.getAttribute("data-lang")); } catch (err) {} }
+});
+</script>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="../es/"><img src="../icon.png" alt="" width="28" height="28"><span>NEO Tracker</span></a>
+  <nav>
+    <a href="../es/privacy.html">Privacidad</a>
+    <a href="../es/support.html">Ayuda</a>
+    <details class="languages"><summary aria-label="Idioma"><svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><circle cx="12" cy="12" r="9.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M2.5 12h19M12 2.5c2.6 2.8 3.9 6 3.9 9.5s-1.3 6.7-3.9 9.5c-2.6-2.8-3.9-6-3.9-9.5s1.3-6.7 3.9-9.5z" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><span>ES</span></summary><ul><li><a href="../support.html" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="../de/support.html" hreflang="de" lang="de" data-lang="de">Deutsch</a></li><li><a href="../pl/support.html" hreflang="pl" lang="pl" data-lang="pl">Polski</a></li><li><a href="../fr/support.html" hreflang="fr" lang="fr" data-lang="fr">Français</a></li><li><a href="../es/support.html" hreflang="es" lang="es" data-lang="es" aria-current="true">Español</a></li><li><a href="../it/support.html" hreflang="it" lang="it" data-lang="it">Italiano</a></li></ul></details>
+  </nav>
+</header>
+<main>
+<h1>Ayuda</h1>
+<p class="lead">Ayuda con la app NEO Tracker para iPhone.</p>
+<section class="card">
+<h2>Contacto</h2>
+<p>¿Un error, una pregunta o una idea? <a href="https://github.com/Max-1902/neotracker-site/issues">Abre una incidencia en GitHub</a>. Indica tu modelo de iPhone, la versión de iOS y qué estabas haciendo cuando ocurrió el problema.</p>
+</section>
+<section>
+<h2>Preguntas frecuentes</h2>
+<h3>¿Es esto un aviso oficial?</h3>
+<p>No. La puntuación de riesgo es un indicador educativo simplificado, no una valoración oficial del peligro. Para evaluaciones reales de impacto, confía en el CNEOS de la NASA y el NEO Coordination Centre de la ESA.</p>
+<h3>¿De dónde vienen los datos?</h3>
+<p>De servicios públicos: NASA NeoWs y APOD, las API NASA/JPL Solar System Dynamics, Wikipedia y Spaceflight News API. Cada proveedor de datos aparece en la <a href="../es/privacy.html">política de privacidad</a>.</p>
+<h3>¿Por qué una sección dice que no se pudo cargar?</h3>
+<p>Los datos en directo necesitan conexión a internet, y a veces los proveedores limitan el número de solicitudes. La app muestra los últimos datos cargados; desliza hacia abajo para volver a intentarlo más tarde.</p>
+<h3>¿Puedo leer artículos completos en la app?</h3>
+<p>Los artículos de la NASA se abren completos dentro de la app. Los de otros sitios se abren en la web del editor, en Safari dentro de la app.</p>
+<h3>¿La app recopila datos sobre mí?</h3>
+<p>No. No hay cuentas, analítica, anuncios ni seguimiento. Consulta la <a href="../es/privacy.html">política de privacidad</a>.</p>
+</section>
+</main>
+<footer>
+  <p>NEO Tracker es una app educativa independiente, sin afiliación con la NASA ni el JPL ni respaldo de ellos.</p>
+</footer>
+</body>
+</html>

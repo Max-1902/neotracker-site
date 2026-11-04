@@ -2,22 +2,51 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
 <title>Privacy Policy – NEO Tracker</title>
 <meta name="description" content="How the NEO Tracker iPhone app and this website handle your data.">
 <link rel="icon" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
 <link rel="stylesheet" href="style.css">
-<link rel="alternate" hreflang="de" href="datenschutz.html">
+<link rel="alternate" hreflang="en" href="privacy.html">
+<link rel="alternate" hreflang="de" href="de/privacy.html">
+<link rel="alternate" hreflang="pl" href="pl/privacy.html">
+<link rel="alternate" hreflang="fr" href="fr/privacy.html">
+<link rel="alternate" hreflang="es" href="es/privacy.html">
+<link rel="alternate" hreflang="it" href="it/privacy.html">
+<link rel="alternate" hreflang="x-default" href="privacy.html">
+<script>
+(function () {
+  var langs = ["en", "de", "pl", "fr", "es", "it"], page = "privacy.html", chosen = null;
+  try { chosen = localStorage.getItem("lang"); } catch (e) {}
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest && e.target.closest("a[data-lang]");
+    if (a) { try { localStorage.setItem("lang", a.getAttribute("data-lang")); } catch (err) {} }
+  });
+  if (chosen) return;
+  var wanted = (navigator.languages || [navigator.language || ""]).map(function (l) { return l.slice(0, 2).toLowerCase(); });
+  for (var i = 0; i < wanted.length; i++) {
+    if (wanted[i] === "en") return;
+    if (langs.indexOf(wanted[i]) > 0) { location.replace(wanted[i] + "/" + page); return; }
+  }
+})();
+</script>
 </head>
 <body>
 <header class="top">
-  <a class="brand" href="./"><img src="icon.png" alt="" width="28" height="28">NEO Tracker</a>
-  <nav><a href="privacy.html">Privacy</a><a href="support.html">Support</a></nav>
+  <a class="brand" href="./"><img src="icon.png" alt="" width="28" height="28"><span>NEO Tracker</span></a>
+  <nav>
+    <a href="privacy.html">Privacy</a>
+    <a href="support.html">Support</a>
+    <details class="languages"><summary aria-label="Language"><svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><circle cx="12" cy="12" r="9.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M2.5 12h19M12 2.5c2.6 2.8 3.9 6 3.9 9.5s-1.3 6.7-3.9 9.5c-2.6-2.8-3.9-6-3.9-9.5s1.3-6.7 3.9-9.5z" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><span>EN</span></summary><ul><li><a href="privacy.html" hreflang="en" lang="en" data-lang="en" aria-current="true">English</a></li><li><a href="de/privacy.html" hreflang="de" lang="de" data-lang="de">Deutsch</a></li><li><a href="pl/privacy.html" hreflang="pl" lang="pl" data-lang="pl">Polski</a></li><li><a href="fr/privacy.html" hreflang="fr" lang="fr" data-lang="fr">Français</a></li><li><a href="es/privacy.html" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="it/privacy.html" hreflang="it" lang="it" data-lang="it">Italiano</a></li></ul></details>
+  </nav>
 </header>
 <main>
 <h1>Privacy Policy</h1>
 <p class="lead">How the NEO Tracker iPhone app and this website handle your data.</p>
-<p class="meta">Last updated: November 4, 2026 · <a href="datenschutz.html" lang="de">Deutsch</a></p>
+<p class="meta">Last updated: November 4, 2026</p>
+
 <section><h2>Summary</h2>
 <p>NEO Tracker has no accounts, no analytics, no advertising and no tracking. The developer does not collect or receive any data about you.</p></section>
 <section><h2>Your Location</h2>

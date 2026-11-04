@@ -1,0 +1,542 @@
+{
+ "en": {
+  "name": "English",
+  "updated": "Last updated: November 4, 2026",
+  "nav_privacy": "Privacy",
+  "nav_support": "Support",
+  "language": "Language",
+  "privacy_title": "Privacy Policy",
+  "privacy_intro": "How the NEO Tracker iPhone app and this website handle your data.",
+  "privacy_sections": [
+   [
+    "Summary",
+    "NEO Tracker has no accounts, no analytics, no advertising and no tracking. The developer does not collect or receive any data about you."
+   ],
+   [
+    "Your Location",
+    "With your permission, your location is used on your device to compute the sky above you and when objects rise and set. To show a place name and time zone, your coordinates (and any place you type in the location search) are sent to Apple's maps service; see Apple's privacy policy. Your location is never sent to the developer or to any data provider below."
+   ],
+   [
+    "Data Providers",
+    "To show live data, the app downloads public information from these services. The requests contain only what's needed to look up the data (for example an asteroid's designation, a date range or the name of a star) and, like any internet request, your device's IP address:\n\n- NASA NeoWs (api.nasa.gov): weekly close approaches\n- NASA Science (science.nasa.gov): Astronomy Picture of the Day\n- NASA/JPL Solar System Dynamics (ssd-api.jpl.nasa.gov, ssd.jpl.nasa.gov): orbits, impact monitoring, close approaches, new discoveries, fireballs, comet orbits and asteroid positions (Horizons)\n- Wikipedia and Wikimedia Commons: object summaries and pictures\n- Spaceflight News API: news articles\n- NASA (www.nasa.gov, science.nasa.gov): full text of NASA news articles\n- NASA Eyes on Asteroids and Eyes on the Solar System: NASA web pages shown inside the app\n\nArticles from other news sites open in Safari inside the app, which loads the publisher's own page.\n\nEach provider's own privacy policy applies to its servers."
+   ],
+   [
+    "Stored on Your Device",
+    "Settings, favorites, quiz progress, your observing log, saved locations and cached data and images are stored only on your device. Clear the cache in Settings; deleting the app removes everything."
+   ],
+   [
+    "Notifications",
+    "If you allow notifications, alerts are scheduled locally on your device. No push service or server is involved."
+   ],
+   [
+    "Not Affiliated with NASA",
+    "NEO Tracker is an independent educational app. It uses public data from NASA, JPL and other sources but is not affiliated with or endorsed by NASA or JPL."
+   ]
+  ],
+  "website_title": "This Website",
+  "website_text": "This website is a set of static pages hosted on GitHub Pages. It uses no cookies, analytics or tracking. GitHub may record technical data such as your IP address when it delivers the pages; see GitHub's privacy statement.",
+  "contact_title": "Contact",
+  "contact_text": "Questions about privacy? <a href=\"{support}\">Get in touch</a>.",
+  "translation_note": "",
+  "footer": "NEO Tracker is an independent educational app, not affiliated with or endorsed by NASA or JPL.",
+  "home_title": "NEO Tracker",
+  "home_description": "A free iPhone app for following near-Earth asteroids and comets with live NASA and JPL data.",
+  "home_lead": "Follow the asteroids and comets passing Earth, using live data from NASA and JPL. An independent, free app for learning about near-Earth objects.",
+  "cards": [
+   [
+    "Close approaches",
+    "Which objects pass Earth this week and over the next 60 days, how big and how close they are."
+   ],
+   [
+    "Science Lab",
+    "Impact calculator, orbit playground, quiz, glossary and classroom activities."
+   ],
+   [
+    "Tonight's sky",
+    "What's above you tonight, constellations and a 3D view of the solar system."
+   ],
+   [
+    "Space news",
+    "The latest spaceflight news, with NASA's own articles readable in full."
+   ]
+  ],
+  "no_tracking": "No accounts, no ads, no tracking.",
+  "app_languages": "The app is available in English and German.",
+  "support_title": "Support",
+  "support_lead": "Help with the NEO Tracker iPhone app.",
+  "support_contact": "Found a bug, have a question or an idea? <a href=\"{issues}\">Open an issue on GitHub</a>. Please include your iPhone model, iOS version and what you were doing when the problem happened.",
+  "faq_title": "Common questions",
+  "faq": [
+   [
+    "Is any of this an official warning?",
+    "No. The risk score is a simplified, educational indicator, not an official hazard rating. For real impact assessments, rely on NASA's CNEOS and ESA's NEO Coordination Centre."
+   ],
+   [
+    "Where does the data come from?",
+    "From public services: NASA NeoWs and APOD, the NASA/JPL Solar System Dynamics APIs, Wikipedia and the Spaceflight News API. Each data provider is listed in the <a href=\"{privacy}\">privacy policy</a>."
+   ],
+   [
+    "Why does a feed say it couldn't load?",
+    "The live data needs an internet connection, and providers sometimes limit how often they can be asked. The app shows the last data it loaded; pull down to try again later."
+   ],
+   [
+    "Can I read whole news articles in the app?",
+    "Articles by NASA open in full inside the app. Articles from other news sites open on the publisher's own website, in Safari inside the app."
+   ],
+   [
+    "Does the app collect data about me?",
+    "No. There are no accounts, analytics, ads or tracking. See the <a href=\"{privacy}\">privacy policy</a>."
+   ]
+  ]
+ },
+ "de": {
+  "name": "Deutsch",
+  "updated": "Zuletzt aktualisiert: 4. November 2026",
+  "nav_privacy": "Datenschutz",
+  "nav_support": "Support",
+  "language": "Sprache",
+  "privacy_title": "Datenschutzerklärung",
+  "privacy_intro": "Wie die iPhone-App NEO Tracker und diese Website mit deinen Daten umgehen.",
+  "privacy_sections": [
+   [
+    "Zusammenfassung",
+    "NEO Tracker hat keine Konten, keine Analyse, keine Werbung und kein Tracking. Der Entwickler erhebt oder erhält keinerlei Daten über dich."
+   ],
+   [
+    "Dein Standort",
+    "Mit deiner Erlaubnis wird dein Standort auf deinem Gerät verwendet, um den Himmel über dir zu berechnen und wann Objekte auf- und untergehen. Um einen Ortsnamen und die Zeitzone anzuzeigen, werden deine Koordinaten (und jeder Ort, den du in der Ortssuche eingibst) an den Kartendienst von Apple gesendet; es gilt die Datenschutzrichtlinie von Apple. Dein Standort wird nie an den Entwickler oder an einen der unten genannten Datenanbieter gesendet."
+   ],
+   [
+    "Datenanbieter",
+    "Um Live-Daten anzuzeigen, lädt die App öffentliche Informationen von diesen Diensten. Die Anfragen enthalten nur, was zum Abrufen der Daten nötig ist (zum Beispiel die Bezeichnung eines Asteroiden, einen Zeitraum oder den Namen eines Sterns) und, wie jede Internetanfrage, die IP-Adresse deines Geräts:\n\n- NASA NeoWs (api.nasa.gov): wöchentliche Annäherungen\n- NASA Science (science.nasa.gov): Astronomy Picture of the Day\n- NASA/JPL Solar System Dynamics (ssd-api.jpl.nasa.gov, ssd.jpl.nasa.gov): Bahnen, Überwachung von Einschlagsrisiken, Annäherungen, neue Entdeckungen, Feuerbälle, Kometenbahnen und Asteroidenpositionen (Horizons)\n- Wikipedia und Wikimedia Commons: Zusammenfassungen und Bilder zu Objekten\n- Spaceflight News API: News-Artikel\n- NASA (www.nasa.gov, science.nasa.gov): vollständiger Text von NASA-News-Artikeln\n- NASA Eyes on Asteroids und Eyes on the Solar System: Webseiten der NASA, die in der App angezeigt werden\n\nArtikel anderer News-Seiten öffnen sich in Safari innerhalb der App, das die Seite des jeweiligen Verlags lädt.\n\nFür die Server jedes Anbieters gilt dessen eigene Datenschutzerklärung."
+   ],
+   [
+    "Auf deinem Gerät gespeichert",
+    "Einstellungen, Favoriten, Quiz-Fortschritt, dein Beobachtungstagebuch, gespeicherte Orte sowie zwischengespeicherte Daten und Bilder werden nur auf deinem Gerät gespeichert. Den Cache kannst du in den Einstellungen leeren; wenn du die App löschst, wird alles entfernt."
+   ],
+   [
+    "Mitteilungen",
+    "Wenn du Mitteilungen erlaubst, werden Hinweise lokal auf deinem Gerät geplant. Es sind weder ein Push-Dienst noch ein Server beteiligt."
+   ],
+   [
+    "Nicht mit der NASA verbunden",
+    "NEO Tracker ist eine unabhängige Lern-App. Sie nutzt öffentliche Daten von NASA, JPL und anderen Quellen, ist aber nicht mit NASA oder JPL verbunden und wird nicht von ihnen unterstützt."
+   ]
+  ],
+  "website_title": "Diese Website",
+  "website_text": "Diese Website besteht aus statischen Seiten, die bei GitHub Pages liegen. Sie verwendet keine Cookies, keine Analyse und kein Tracking. GitHub kann beim Ausliefern der Seiten technische Daten wie deine IP-Adresse erfassen; siehe die Datenschutzerklärung von GitHub.",
+  "contact_title": "Kontakt",
+  "contact_text": "Fragen zum Datenschutz? <a href=\"{support}\">Schreib uns</a>.",
+  "translation_note": "",
+  "footer": "NEO Tracker ist eine unabhängige Lern-App und nicht mit der NASA oder dem JPL verbunden oder von ihnen unterstützt.",
+  "home_title": "NEO Tracker",
+  "home_description": "Eine kostenlose iPhone-App, um erdnahe Asteroiden und Kometen mit Live-Daten von NASA und JPL zu verfolgen.",
+  "home_lead": "Verfolge Asteroiden und Kometen, die an der Erde vorbeiziehen, mit Live-Daten von NASA und JPL. Eine unabhängige, kostenlose App zum Lernen über erdnahe Objekte.",
+  "cards": [
+   [
+    "Annäherungen",
+    "Welche Objekte diese Woche und in den nächsten 60 Tagen an der Erde vorbeiziehen, wie groß sie sind und wie nah sie kommen."
+   ],
+   [
+    "Wissenschaftslabor",
+    "Einschlagsrechner, Bahnsimulator, Quiz, Glossar und Unterrichtsaktivitäten."
+   ],
+   [
+    "Himmel heute Nacht",
+    "Was heute Nacht über dir steht, Sternbilder und eine 3D-Ansicht des Sonnensystems."
+   ],
+   [
+    "Raumfahrt-News",
+    "Die neuesten Raumfahrt-Nachrichten, NASA-Artikel komplett zum Lesen."
+   ]
+  ],
+  "no_tracking": "Keine Konten, keine Werbung, kein Tracking.",
+  "app_languages": "Die App gibt es auf Englisch und Deutsch.",
+  "support_title": "Support",
+  "support_lead": "Hilfe zur iPhone-App NEO Tracker.",
+  "support_contact": "Fehler gefunden, eine Frage oder eine Idee? <a href=\"{issues}\">Eröffne ein Issue auf GitHub</a>. Nenne bitte dein iPhone-Modell, die iOS-Version und was du gerade gemacht hast, als das Problem auftrat.",
+  "faq_title": "Häufige Fragen",
+  "faq": [
+   [
+    "Ist das eine offizielle Warnung?",
+    "Nein. Der Risikowert ist ein vereinfachter Lernwert, keine offizielle Gefahreneinstufung. Für echte Einschlagsbewertungen verlass dich auf CNEOS der NASA und das NEO Coordination Centre der ESA."
+   ],
+   [
+    "Woher kommen die Daten?",
+    "Von öffentlichen Diensten: NASA NeoWs und APOD, den Solar-System-Dynamics-Schnittstellen von NASA/JPL, Wikipedia und der Spaceflight News API. Alle Datenanbieter stehen in der <a href=\"{privacy}\">Datenschutzerklärung</a>."
+   ],
+   [
+    "Warum meldet ein Bereich, dass er nicht laden konnte?",
+    "Die Live-Daten brauchen eine Internetverbindung, und Anbieter begrenzen manchmal, wie oft man sie abfragen darf. Die App zeigt die zuletzt geladenen Daten; zieh später nach unten, um es erneut zu versuchen."
+   ],
+   [
+    "Kann ich ganze Artikel in der App lesen?",
+    "Artikel der NASA öffnen sich vollständig in der App. Artikel anderer News-Seiten öffnen sich auf der Website des Verlags, in Safari innerhalb der App."
+   ],
+   [
+    "Sammelt die App Daten über mich?",
+    "Nein. Es gibt keine Konten, keine Analyse, keine Werbung und kein Tracking. Siehe <a href=\"{privacy}\">Datenschutzerklärung</a>."
+   ]
+  ]
+ },
+ "pl": {
+  "name": "Polski",
+  "updated": "Ostatnia aktualizacja: 4 listopada 2026",
+  "nav_privacy": "Prywatność",
+  "nav_support": "Pomoc",
+  "language": "Język",
+  "privacy_title": "Polityka prywatności",
+  "privacy_intro": "Jak aplikacja NEO Tracker na iPhone'a i ta strona obchodzą się z Twoimi danymi.",
+  "privacy_sections": [
+   [
+    "Podsumowanie",
+    "NEO Tracker nie ma kont, analityki, reklam ani śledzenia. Twórca aplikacji nie zbiera ani nie otrzymuje żadnych danych o Tobie."
+   ],
+   [
+    "Twoja lokalizacja",
+    "Za Twoją zgodą lokalizacja jest używana na Twoim urządzeniu do obliczania nieba nad Tobą oraz godzin wschodu i zachodu obiektów. Aby pokazać nazwę miejsca i strefę czasową, Twoje współrzędne (oraz każde miejsce wpisane w wyszukiwarce lokalizacji) są wysyłane do usługi map Apple; zobacz politykę prywatności Apple. Twoja lokalizacja nigdy nie jest wysyłana do twórcy aplikacji ani do żadnego z poniższych dostawców danych."
+   ],
+   [
+    "Dostawcy danych",
+    "Aby pokazywać aktualne dane, aplikacja pobiera publiczne informacje z poniższych usług. Zapytania zawierają tylko to, co jest potrzebne do wyszukania danych (na przykład oznaczenie planetoidy, zakres dat lub nazwę gwiazdy) oraz, jak każde zapytanie w internecie, adres IP Twojego urządzenia:\n\n- NASA NeoWs (api.nasa.gov): bliskie przeloty w danym tygodniu\n- NASA Science (science.nasa.gov): Astronomy Picture of the Day\n- NASA/JPL Solar System Dynamics (ssd-api.jpl.nasa.gov, ssd.jpl.nasa.gov): orbity, monitorowanie ryzyka zderzeń, bliskie przeloty, nowe odkrycia, bolidy, orbity komet i pozycje planetoid (Horizons)\n- Wikipedia i Wikimedia Commons: opisy i zdjęcia obiektów\n- Spaceflight News API: artykuły z wiadomościami\n- NASA (www.nasa.gov, science.nasa.gov): pełna treść artykułów NASA\n- NASA Eyes on Asteroids i Eyes on the Solar System: strony internetowe NASA wyświetlane w aplikacji\n\nArtykuły z innych serwisów informacyjnych otwierają się w Safari wewnątrz aplikacji, które wczytuje stronę wydawcy.\n\nDo serwerów każdego dostawcy ma zastosowanie jego własna polityka prywatności."
+   ],
+   [
+    "Przechowywane na Twoim urządzeniu",
+    "Ustawienia, ulubione, postępy w quizie, dziennik obserwacji, zapisane miejsca oraz dane i obrazy w pamięci podręcznej są przechowywane wyłącznie na Twoim urządzeniu. Pamięć podręczną możesz wyczyścić w Ustawieniach; usunięcie aplikacji usuwa wszystko."
+   ],
+   [
+    "Powiadomienia",
+    "Jeśli zezwolisz na powiadomienia, są one planowane lokalnie na Twoim urządzeniu. Nie jest używana żadna usługa push ani serwer."
+   ],
+   [
+    "Brak powiązań z NASA",
+    "NEO Tracker to niezależna aplikacja edukacyjna. Korzysta z publicznych danych NASA, JPL i innych źródeł, ale nie jest powiązana z NASA ani JPL ani przez nie popierana."
+   ]
+  ],
+  "website_title": "Ta strona",
+  "website_text": "Ta strona składa się ze statycznych stron hostowanych w GitHub Pages. Nie używa plików cookie, analityki ani śledzenia. GitHub może rejestrować dane techniczne, takie jak Twój adres IP, podczas dostarczania stron; zobacz oświadczenie o ochronie prywatności GitHub.",
+  "contact_title": "Kontakt",
+  "contact_text": "Pytania dotyczące prywatności? <a href=\"{support}\">Skontaktuj się z nami</a>.",
+  "translation_note": "To jest tłumaczenie. W razie rozbieżności obowiązuje wersja angielska.",
+  "footer": "NEO Tracker to niezależna aplikacja edukacyjna, niepowiązana z NASA ani JPL i przez nie niepopierana.",
+  "home_title": "NEO Tracker",
+  "home_description": "Darmowa aplikacja na iPhone'a do śledzenia planetoid i komet bliskich Ziemi z aktualnymi danymi NASA i JPL.",
+  "home_lead": "Śledź planetoidy i komety przelatujące obok Ziemi dzięki aktualnym danym NASA i JPL. Niezależna, darmowa aplikacja do nauki o obiektach bliskich Ziemi.",
+  "cards": [
+   [
+    "Bliskie przeloty",
+    "Które obiekty miną Ziemię w tym tygodniu i w ciągu najbliższych 60 dni, jak są duże i jak blisko przelecą."
+   ],
+   [
+    "Laboratorium naukowe",
+    "Kalkulator zderzeń, symulator orbit, quiz, słowniczek i zajęcia dla klas."
+   ],
+   [
+    "Niebo dziś wieczorem",
+    "Co jest nad Tobą dziś wieczorem, gwiazdozbiory i widok 3D Układu Słonecznego."
+   ],
+   [
+    "Wiadomości kosmiczne",
+    "Najnowsze wiadomości o lotach kosmicznych, a artykuły NASA do przeczytania w całości."
+   ]
+  ],
+  "no_tracking": "Bez kont, bez reklam, bez śledzenia.",
+  "app_languages": "Aplikacja jest dostępna po angielsku i niemiecku.",
+  "support_title": "Pomoc",
+  "support_lead": "Pomoc dotycząca aplikacji NEO Tracker na iPhone'a.",
+  "support_contact": "Błąd, pytanie albo pomysł? <a href=\"{issues}\">Zgłoś to na GitHubie</a>. Podaj model iPhone'a, wersję iOS i opisz, co się działo, gdy wystąpił problem.",
+  "faq_title": "Częste pytania",
+  "faq": [
+   [
+    "Czy to oficjalne ostrzeżenie?",
+    "Nie. Wskaźnik ryzyka to uproszczony wskaźnik edukacyjny, a nie oficjalna ocena zagrożenia. W sprawie rzeczywistych ocen ryzyka zderzeń polegaj na CNEOS NASA i Centrum Koordynacji NEO ESA."
+   ],
+   [
+    "Skąd pochodzą dane?",
+    "Z publicznych usług: NASA NeoWs i APOD, interfejsów NASA/JPL Solar System Dynamics, Wikipedii i Spaceflight News API. Wszyscy dostawcy danych są wymienieni w <a href=\"{privacy}\">polityce prywatności</a>."
+   ],
+   [
+    "Dlaczego widzę komunikat, że nie udało się wczytać danych?",
+    "Aktualne dane wymagają połączenia z internetem, a dostawcy czasem ograniczają liczbę zapytań. Aplikacja pokazuje ostatnio wczytane dane; spróbuj ponownie później, przeciągając w dół."
+   ],
+   [
+    "Czy mogę czytać całe artykuły w aplikacji?",
+    "Artykuły NASA otwierają się w całości w aplikacji. Artykuły z innych serwisów otwierają się na stronie wydawcy, w Safari wewnątrz aplikacji."
+   ],
+   [
+    "Czy aplikacja zbiera dane o mnie?",
+    "Nie. Nie ma kont, analityki, reklam ani śledzenia. Zobacz <a href=\"{privacy}\">politykę prywatności</a>."
+   ]
+  ]
+ },
+ "fr": {
+  "name": "Français",
+  "updated": "Dernière mise à jour : 4 novembre 2026",
+  "nav_privacy": "Confidentialité",
+  "nav_support": "Assistance",
+  "language": "Langue",
+  "privacy_title": "Politique de confidentialité",
+  "privacy_intro": "Comment l'app iPhone NEO Tracker et ce site traitent vos données.",
+  "privacy_sections": [
+   [
+    "En bref",
+    "NEO Tracker n'a ni comptes, ni outils d'analyse, ni publicité, ni pistage. Le développeur ne collecte et ne reçoit aucune donnée vous concernant."
+   ],
+   [
+    "Votre position",
+    "Avec votre autorisation, votre position est utilisée sur votre appareil pour calculer le ciel au-dessus de vous et les heures de lever et de coucher des objets. Pour afficher un nom de lieu et un fuseau horaire, vos coordonnées (et tout lieu saisi dans la recherche de lieu) sont envoyées au service de cartes d'Apple ; consultez la politique de confidentialité d'Apple. Votre position n'est jamais envoyée au développeur ni à aucun des fournisseurs de données ci-dessous."
+   ],
+   [
+    "Fournisseurs de données",
+    "Pour afficher des données en direct, l'app télécharge des informations publiques depuis les services suivants. Les requêtes ne contiennent que le nécessaire pour trouver les données (par exemple la désignation d'un astéroïde, une période ou le nom d'une étoile) et, comme toute requête sur Internet, l'adresse IP de votre appareil :\n\n- NASA NeoWs (api.nasa.gov) : passages rapprochés de la semaine\n- NASA Science (science.nasa.gov) : Astronomy Picture of the Day\n- NASA/JPL Solar System Dynamics (ssd-api.jpl.nasa.gov, ssd.jpl.nasa.gov) : orbites, surveillance des risques d'impact, passages rapprochés, nouvelles découvertes, bolides, orbites de comètes et positions d'astéroïdes (Horizons)\n- Wikipédia et Wikimedia Commons : résumés et images des objets\n- Spaceflight News API : articles d'actualité\n- NASA (www.nasa.gov, science.nasa.gov) : texte intégral des articles de la NASA\n- NASA Eyes on Asteroids et Eyes on the Solar System : pages web de la NASA affichées dans l'app\n\nLes articles d'autres sites d'actualité s'ouvrent dans Safari, au sein de l'app, qui charge la page de l'éditeur.\n\nLa politique de confidentialité de chaque fournisseur s'applique à ses serveurs."
+   ],
+   [
+    "Stocké sur votre appareil",
+    "Les réglages, les favoris, la progression du quiz, votre journal d'observation, les lieux enregistrés ainsi que les données et images en cache sont stockés uniquement sur votre appareil. Videz le cache dans les Réglages ; supprimer l'app efface tout."
+   ],
+   [
+    "Notifications",
+    "Si vous autorisez les notifications, les alertes sont programmées localement sur votre appareil. Aucun service push ni serveur n'est utilisé."
+   ],
+   [
+    "Aucun lien avec la NASA",
+    "NEO Tracker est une app éducative indépendante. Elle utilise des données publiques de la NASA, du JPL et d'autres sources, mais n'est ni affiliée à la NASA ou au JPL, ni approuvée par eux."
+   ]
+  ],
+  "website_title": "Ce site",
+  "website_text": "Ce site est composé de pages statiques hébergées sur GitHub Pages. Il n'utilise ni cookies, ni outils d'analyse, ni pistage. GitHub peut enregistrer des données techniques, comme votre adresse IP, lorsqu'il fournit les pages ; consultez la déclaration de confidentialité de GitHub.",
+  "contact_title": "Contact",
+  "contact_text": "Des questions sur la confidentialité ? <a href=\"{support}\">Contactez-nous</a>.",
+  "translation_note": "Ceci est une traduction. En cas de divergence, la version anglaise fait foi.",
+  "footer": "NEO Tracker est une app éducative indépendante, ni affiliée à la NASA ou au JPL, ni approuvée par eux.",
+  "home_title": "NEO Tracker",
+  "home_description": "Une app iPhone gratuite pour suivre les astéroïdes et comètes géocroiseurs avec les données en direct de la NASA et du JPL.",
+  "home_lead": "Suivez les astéroïdes et les comètes qui passent près de la Terre grâce aux données en direct de la NASA et du JPL. Une app indépendante et gratuite pour découvrir les objets géocroiseurs.",
+  "cards": [
+   [
+    "Passages rapprochés",
+    "Les objets qui passent près de la Terre cette semaine et dans les 60 prochains jours, leur taille et leur distance."
+   ],
+   [
+    "Labo scientifique",
+    "Calculateur d'impact, simulateur d'orbites, quiz, glossaire et activités pour la classe."
+   ],
+   [
+    "Le ciel ce soir",
+    "Ce qui est au-dessus de vous ce soir, les constellations et une vue 3D du système solaire."
+   ],
+   [
+    "Actualités spatiales",
+    "Les dernières nouvelles du spatial, avec les articles de la NASA à lire en entier."
+   ]
+  ],
+  "no_tracking": "Pas de compte, pas de publicité, pas de pistage.",
+  "app_languages": "L'app est disponible en anglais et en allemand.",
+  "support_title": "Assistance",
+  "support_lead": "Aide pour l'app iPhone NEO Tracker.",
+  "support_contact": "Un bug, une question ou une idée ? <a href=\"{issues}\">Ouvrez un ticket sur GitHub</a>. Indiquez votre modèle d'iPhone, votre version d'iOS et ce que vous faisiez quand le problème est survenu.",
+  "faq_title": "Questions fréquentes",
+  "faq": [
+   [
+    "S'agit-il d'une alerte officielle ?",
+    "Non. Le score de risque est un indicateur éducatif simplifié, pas une évaluation officielle du danger. Pour les vraies évaluations d'impact, fiez-vous au CNEOS de la NASA et au NEO Coordination Centre de l'ESA."
+   ],
+   [
+    "D'où viennent les données ?",
+    "De services publics : NASA NeoWs et APOD, les API NASA/JPL Solar System Dynamics, Wikipédia et Spaceflight News API. Chaque fournisseur de données est indiqué dans la <a href=\"{privacy}\">politique de confidentialité</a>."
+   ],
+   [
+    "Pourquoi un flux indique-t-il qu'il n'a pas pu se charger ?",
+    "Les données en direct nécessitent une connexion Internet, et les fournisseurs limitent parfois le nombre de requêtes. L'app affiche les dernières données chargées ; tirez vers le bas pour réessayer plus tard."
+   ],
+   [
+    "Puis-je lire des articles entiers dans l'app ?",
+    "Les articles de la NASA s'ouvrent en entier dans l'app. Ceux des autres sites s'ouvrent sur le site de l'éditeur, dans Safari au sein de l'app."
+   ],
+   [
+    "L'app collecte-t-elle des données sur moi ?",
+    "Non. Pas de compte, d'outils d'analyse, de publicité ni de pistage. Consultez la <a href=\"{privacy}\">politique de confidentialité</a>."
+   ]
+  ]
+ },
+ "es": {
+  "name": "Español",
+  "updated": "Última actualización: 4 de noviembre de 2026",
+  "nav_privacy": "Privacidad",
+  "nav_support": "Ayuda",
+  "language": "Idioma",
+  "privacy_title": "Política de privacidad",
+  "privacy_intro": "Cómo tratan tus datos la app NEO Tracker para iPhone y este sitio web.",
+  "privacy_sections": [
+   [
+    "Resumen",
+    "NEO Tracker no tiene cuentas, ni analítica, ni publicidad, ni seguimiento. El desarrollador no recopila ni recibe ningún dato sobre ti."
+   ],
+   [
+    "Tu ubicación",
+    "Con tu permiso, tu ubicación se usa en tu dispositivo para calcular el cielo sobre ti y cuándo salen y se ponen los objetos. Para mostrar el nombre de un lugar y la zona horaria, tus coordenadas (y cualquier lugar que escribas en la búsqueda de ubicaciones) se envían al servicio de mapas de Apple; consulta la política de privacidad de Apple. Tu ubicación nunca se envía al desarrollador ni a ninguno de los proveedores de datos indicados abajo."
+   ],
+   [
+    "Proveedores de datos",
+    "Para mostrar datos en directo, la app descarga información pública de estos servicios. Las solicitudes contienen solo lo necesario para consultar los datos (por ejemplo, la designación de un asteroide, un intervalo de fechas o el nombre de una estrella) y, como cualquier solicitud en internet, la dirección IP de tu dispositivo:\n\n- NASA NeoWs (api.nasa.gov): aproximaciones de la semana\n- NASA Science (science.nasa.gov): Astronomy Picture of the Day\n- NASA/JPL Solar System Dynamics (ssd-api.jpl.nasa.gov, ssd.jpl.nasa.gov): órbitas, vigilancia del riesgo de impacto, aproximaciones, nuevos descubrimientos, bólidos, órbitas de cometas y posiciones de asteroides (Horizons)\n- Wikipedia y Wikimedia Commons: resúmenes e imágenes de objetos\n- Spaceflight News API: artículos de noticias\n- NASA (www.nasa.gov, science.nasa.gov): texto completo de los artículos de la NASA\n- NASA Eyes on Asteroids y Eyes on the Solar System: páginas web de la NASA mostradas en la app\n\nLos artículos de otros sitios de noticias se abren en Safari dentro de la app, que carga la página del propio editor.\n\nA los servidores de cada proveedor se aplica su propia política de privacidad."
+   ],
+   [
+    "Guardado en tu dispositivo",
+    "Los ajustes, los favoritos, el progreso del quiz, tu diario de observación, los lugares guardados y los datos e imágenes en caché se guardan solo en tu dispositivo. Puedes vaciar la caché en Ajustes; al eliminar la app se borra todo."
+   ],
+   [
+    "Notificaciones",
+    "Si permites las notificaciones, los avisos se programan localmente en tu dispositivo. No interviene ningún servicio push ni servidor."
+   ],
+   [
+    "Sin relación con la NASA",
+    "NEO Tracker es una app educativa independiente. Usa datos públicos de la NASA, el JPL y otras fuentes, pero no está afiliada a la NASA ni al JPL ni cuenta con su respaldo."
+   ]
+  ],
+  "website_title": "Este sitio web",
+  "website_text": "Este sitio web está formado por páginas estáticas alojadas en GitHub Pages. No usa cookies, analítica ni seguimiento. GitHub puede registrar datos técnicos, como tu dirección IP, al servir las páginas; consulta la declaración de privacidad de GitHub.",
+  "contact_title": "Contacto",
+  "contact_text": "¿Preguntas sobre privacidad? <a href=\"{support}\">Ponte en contacto</a>.",
+  "translation_note": "Esto es una traducción. En caso de discrepancia, prevalece la versión en inglés.",
+  "footer": "NEO Tracker es una app educativa independiente, sin afiliación con la NASA ni el JPL ni respaldo de ellos.",
+  "home_title": "NEO Tracker",
+  "home_description": "Una app gratuita para iPhone para seguir asteroides y cometas cercanos a la Tierra con datos en directo de la NASA y el JPL.",
+  "home_lead": "Sigue los asteroides y cometas que pasan cerca de la Tierra con datos en directo de la NASA y el JPL. Una app independiente y gratuita para aprender sobre los objetos cercanos a la Tierra.",
+  "cards": [
+   [
+    "Aproximaciones",
+    "Qué objetos pasan cerca de la Tierra esta semana y en los próximos 60 días, qué tamaño tienen y a qué distancia pasan."
+   ],
+   [
+    "Laboratorio científico",
+    "Calculadora de impactos, simulador de órbitas, quiz, glosario y actividades para clase."
+   ],
+   [
+    "El cielo esta noche",
+    "Qué hay sobre ti esta noche, las constelaciones y una vista 3D del sistema solar."
+   ],
+   [
+    "Noticias espaciales",
+    "Las últimas noticias de vuelos espaciales, con los artículos de la NASA para leer completos."
+   ]
+  ],
+  "no_tracking": "Sin cuentas, sin anuncios, sin seguimiento.",
+  "app_languages": "La app está disponible en inglés y alemán.",
+  "support_title": "Ayuda",
+  "support_lead": "Ayuda con la app NEO Tracker para iPhone.",
+  "support_contact": "¿Un error, una pregunta o una idea? <a href=\"{issues}\">Abre una incidencia en GitHub</a>. Indica tu modelo de iPhone, la versión de iOS y qué estabas haciendo cuando ocurrió el problema.",
+  "faq_title": "Preguntas frecuentes",
+  "faq": [
+   [
+    "¿Es esto un aviso oficial?",
+    "No. La puntuación de riesgo es un indicador educativo simplificado, no una valoración oficial del peligro. Para evaluaciones reales de impacto, confía en el CNEOS de la NASA y el NEO Coordination Centre de la ESA."
+   ],
+   [
+    "¿De dónde vienen los datos?",
+    "De servicios públicos: NASA NeoWs y APOD, las API NASA/JPL Solar System Dynamics, Wikipedia y Spaceflight News API. Cada proveedor de datos aparece en la <a href=\"{privacy}\">política de privacidad</a>."
+   ],
+   [
+    "¿Por qué una sección dice que no se pudo cargar?",
+    "Los datos en directo necesitan conexión a internet, y a veces los proveedores limitan el número de solicitudes. La app muestra los últimos datos cargados; desliza hacia abajo para volver a intentarlo más tarde."
+   ],
+   [
+    "¿Puedo leer artículos completos en la app?",
+    "Los artículos de la NASA se abren completos dentro de la app. Los de otros sitios se abren en la web del editor, en Safari dentro de la app."
+   ],
+   [
+    "¿La app recopila datos sobre mí?",
+    "No. No hay cuentas, analítica, anuncios ni seguimiento. Consulta la <a href=\"{privacy}\">política de privacidad</a>."
+   ]
+  ]
+ },
+ "it": {
+  "name": "Italiano",
+  "updated": "Ultimo aggiornamento: 4 novembre 2026",
+  "nav_privacy": "Privacy",
+  "nav_support": "Assistenza",
+  "language": "Lingua",
+  "privacy_title": "Informativa sulla privacy",
+  "privacy_intro": "Come l'app NEO Tracker per iPhone e questo sito trattano i tuoi dati.",
+  "privacy_sections": [
+   [
+    "In sintesi",
+    "NEO Tracker non ha account, analisi, pubblicità né tracciamento. Lo sviluppatore non raccoglie né riceve alcun dato su di te."
+   ],
+   [
+    "La tua posizione",
+    "Con il tuo permesso, la tua posizione viene usata sul dispositivo per calcolare il cielo sopra di te e quando gli oggetti sorgono e tramontano. Per mostrare il nome di un luogo e il fuso orario, le tue coordinate (e qualsiasi luogo digitato nella ricerca) vengono inviate al servizio mappe di Apple; consulta l'informativa sulla privacy di Apple. La tua posizione non viene mai inviata allo sviluppatore né ad alcuno dei fornitori di dati elencati sotto."
+   ],
+   [
+    "Fornitori di dati",
+    "Per mostrare dati in tempo reale, l'app scarica informazioni pubbliche da questi servizi. Le richieste contengono solo quanto serve per trovare i dati (ad esempio la designazione di un asteroide, un intervallo di date o il nome di una stella) e, come ogni richiesta su internet, l'indirizzo IP del tuo dispositivo:\n\n- NASA NeoWs (api.nasa.gov): passaggi ravvicinati della settimana\n- NASA Science (science.nasa.gov): Astronomy Picture of the Day\n- NASA/JPL Solar System Dynamics (ssd-api.jpl.nasa.gov, ssd.jpl.nasa.gov): orbite, monitoraggio del rischio di impatto, passaggi ravvicinati, nuove scoperte, bolidi, orbite delle comete e posizioni degli asteroidi (Horizons)\n- Wikipedia e Wikimedia Commons: descrizioni e immagini degli oggetti\n- Spaceflight News API: articoli di notizie\n- NASA (www.nasa.gov, science.nasa.gov): testo completo degli articoli della NASA\n- NASA Eyes on Asteroids ed Eyes on the Solar System: pagine web della NASA mostrate nell'app\n\nGli articoli di altri siti di notizie si aprono in Safari all'interno dell'app, che carica la pagina dell'editore.\n\nAi server di ciascun fornitore si applica la sua informativa sulla privacy."
+   ],
+   [
+    "Salvato sul tuo dispositivo",
+    "Impostazioni, preferiti, progressi nel quiz, il tuo diario di osservazione, i luoghi salvati e i dati e le immagini in cache sono salvati solo sul tuo dispositivo. Puoi svuotare la cache nelle Impostazioni; eliminando l'app si cancella tutto."
+   ],
+   [
+    "Notifiche",
+    "Se consenti le notifiche, gli avvisi vengono programmati localmente sul tuo dispositivo. Non è coinvolto alcun servizio push né server."
+   ],
+   [
+    "Nessun legame con la NASA",
+    "NEO Tracker è un'app educativa indipendente. Usa dati pubblici di NASA, JPL e altre fonti, ma non è affiliata né approvata da NASA o JPL."
+   ]
+  ],
+  "website_title": "Questo sito",
+  "website_text": "Questo sito è composto da pagine statiche ospitate su GitHub Pages. Non usa cookie, strumenti di analisi né tracciamento. GitHub può registrare dati tecnici, come il tuo indirizzo IP, quando fornisce le pagine; consulta l'informativa sulla privacy di GitHub.",
+  "contact_title": "Contatti",
+  "contact_text": "Domande sulla privacy? <a href=\"{support}\">Contattaci</a>.",
+  "translation_note": "Questa è una traduzione. In caso di differenze, fa fede la versione inglese.",
+  "footer": "NEO Tracker è un'app educativa indipendente, non affiliata né approvata da NASA o JPL.",
+  "home_title": "NEO Tracker",
+  "home_description": "Un'app gratuita per iPhone per seguire asteroidi e comete vicini alla Terra con dati in tempo reale di NASA e JPL.",
+  "home_lead": "Segui gli asteroidi e le comete che passano vicino alla Terra con dati in tempo reale di NASA e JPL. Un'app indipendente e gratuita per conoscere gli oggetti vicini alla Terra.",
+  "cards": [
+   [
+    "Passaggi ravvicinati",
+    "Quali oggetti passano vicino alla Terra questa settimana e nei prossimi 60 giorni, quanto sono grandi e quanto si avvicinano."
+   ],
+   [
+    "Laboratorio scientifico",
+    "Calcolatore di impatti, simulatore di orbite, quiz, glossario e attività per la classe."
+   ],
+   [
+    "Il cielo stasera",
+    "Cosa c'è sopra di te stasera, le costellazioni e una vista 3D del sistema solare."
+   ],
+   [
+    "Notizie spaziali",
+    "Le ultime notizie sui voli spaziali, con gli articoli della NASA da leggere per intero."
+   ]
+  ],
+  "no_tracking": "Nessun account, nessuna pubblicità, nessun tracciamento.",
+  "app_languages": "L'app è disponibile in inglese e tedesco.",
+  "support_title": "Assistenza",
+  "support_lead": "Aiuto per l'app NEO Tracker per iPhone.",
+  "support_contact": "Un bug, una domanda o un'idea? <a href=\"{issues}\">Apri una segnalazione su GitHub</a>. Indica il modello di iPhone, la versione di iOS e cosa stavi facendo quando si è verificato il problema.",
+  "faq_title": "Domande frequenti",
+  "faq": [
+   [
+    "È un allarme ufficiale?",
+    "No. Il punteggio di rischio è un indicatore educativo semplificato, non una valutazione ufficiale del pericolo. Per valutazioni reali degli impatti, affidati al CNEOS della NASA e al NEO Coordination Centre dell'ESA."
+   ],
+   [
+    "Da dove vengono i dati?",
+    "Da servizi pubblici: NASA NeoWs e APOD, le API NASA/JPL Solar System Dynamics, Wikipedia e Spaceflight News API. Ogni fornitore di dati è elencato nell'<a href=\"{privacy}\">informativa sulla privacy</a>."
+   ],
+   [
+    "Perché una sezione dice che non è stato possibile caricare i dati?",
+    "I dati in tempo reale richiedono una connessione a internet e a volte i fornitori limitano il numero di richieste. L'app mostra gli ultimi dati caricati; trascina verso il basso per riprovare più tardi."
+   ],
+   [
+    "Posso leggere articoli completi nell'app?",
+    "Gli articoli della NASA si aprono per intero nell'app. Quelli di altri siti si aprono sul sito dell'editore, in Safari all'interno dell'app."
+   ],
+   [
+    "L'app raccoglie dati su di me?",
+    "No. Nessun account, analisi, pubblicità o tracciamento. Consulta l'<a href=\"{privacy}\">informativa sulla privacy</a>."
+   ]
+  ]
+ }
+}

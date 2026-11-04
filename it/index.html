@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>NEO Tracker</title>
+<meta name="description" content="Un&#x27;app gratuita per iPhone per seguire asteroidi e comete vicini alla Terra con dati in tempo reale di NASA e JPL.">
+<link rel="icon" href="../icon.png">
+<link rel="apple-touch-icon" href="../icon.png">
+<link rel="stylesheet" href="../style.css">
+<link rel="alternate" hreflang="en" href="../">
+<link rel="alternate" hreflang="de" href="../de/">
+<link rel="alternate" hreflang="pl" href="../pl/">
+<link rel="alternate" hreflang="fr" href="../fr/">
+<link rel="alternate" hreflang="es" href="../es/">
+<link rel="alternate" hreflang="it" href="../it/">
+<link rel="alternate" hreflang="x-default" href="../">
+<script>
+document.addEventListener("click", function (e) {
+  var a = e.target.closest && e.target.closest("a[data-lang]");
+  if (a) { try { localStorage.setItem("lang", a.getAttribute("data-lang")); } catch (err) {} }
+});
+</script>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="../it/"><img src="../icon.png" alt="" width="28" height="28"><span>NEO Tracker</span></a>
+  <nav>
+    <a href="../it/privacy.html">Privacy</a>
+    <a href="../it/support.html">Assistenza</a>
+    <details class="languages"><summary aria-label="Lingua"><svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><circle cx="12" cy="12" r="9.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M2.5 12h19M12 2.5c2.6 2.8 3.9 6 3.9 9.5s-1.3 6.7-3.9 9.5c-2.6-2.8-3.9-6-3.9-9.5s1.3-6.7 3.9-9.5z" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><span>IT</span></summary><ul><li><a href="../" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="../de/" hreflang="de" lang="de" data-lang="de">Deutsch</a></li><li><a href="../pl/" hreflang="pl" lang="pl" data-lang="pl">Polski</a></li><li><a href="../fr/" hreflang="fr" lang="fr" data-lang="fr">Français</a></li><li><a href="../es/" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="../it/" hreflang="it" lang="it" data-lang="it" aria-current="true">Italiano</a></li></ul></details>
+  </nav>
+</header>
+<main>
+<section class="hero">
+<img src="../icon.png" alt="" width="112" height="112">
+<h1>NEO Tracker</h1>
+<p class="lead">Segui gli asteroidi e le comete che passano vicino alla Terra con dati in tempo reale di NASA e JPL. Un&#x27;app indipendente e gratuita per conoscere gli oggetti vicini alla Terra.</p>
+</section>
+<section class="grid">
+<div class="card"><h2>Passaggi ravvicinati</h2><p>Quali oggetti passano vicino alla Terra questa settimana e nei prossimi 60 giorni, quanto sono grandi e quanto si avvicinano.</p></div>
+<div class="card"><h2>Laboratorio scientifico</h2><p>Calcolatore di impatti, simulatore di orbite, quiz, glossario e attività per la classe.</p></div>
+<div class="card"><h2>Il cielo stasera</h2><p>Cosa c&#x27;è sopra di te stasera, le costellazioni e una vista 3D del sistema solare.</p></div>
+<div class="card"><h2>Notizie spaziali</h2><p>Le ultime notizie sui voli spaziali, con gli articoli della NASA da leggere per intero.</p></div>
+</section>
+<section class="links">
+<p><a href="../it/privacy.html">Informativa sulla privacy</a> · <a href="../it/support.html">Assistenza</a></p>
+<p class="meta">Nessun account, nessuna pubblicità, nessun tracciamento.<br>L'app è disponibile in inglese e tedesco.</p>
+</section>
+</main>
+<footer>
+  <p>NEO Tracker è un&#x27;app educativa indipendente, non affiliata né approvata da NASA o JPL.</p>
+</footer>
+</body>
+</html>
